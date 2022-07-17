@@ -1,0 +1,210 @@
+<scene>
+    <!-- ESCALA 9 dia = 1 -->
+    <lights>
+        <light type="POINT" />
+    </lights>
+    <group>
+        <translate time="30">
+            <point X="200.0" Y="150.0" Z="200.0" />
+            <point X="200.0" Y="-150.0" Z="-200.0" />
+            <point X="0.0" Y="-234.3" Z="-300.0" />
+            <point X="-200.0" Y="-150.0" Z="-200.0" />
+            <point X="-200.0" Y="150.0" Z="200.0" />
+            <point X="0.0" Y="234.3" Z="300.0" />
+        </translate>
+        <rotate time="9" axisY="1" axisZ = "1" />
+        <scale X="3" Y="3" Z="3" />
+        <models>
+            <model file="teste/bezier.3d" />
+        </models>
+    </group>
+    <group>
+        <!--SOL-->
+        <rotate time="9" axisY="1" />
+        <scale X="5" Y="5" Z="5" />
+        <models>
+            <model file="teste/esfera.3d" texture="teste/sun.jpg" emiR="1" emiG="1" emiB="1" />
+        </models>
+    </group>
+    <group>
+        <!--MERCÚRIO-->
+        <translate time="9.6">
+            <point X="40.0" Y="0.0" Z="40.0" />
+            <point X="70.0" Y="0.0" Z="0.0" />
+            <point X="40.0" Y="0.0" Z="-40.0" />
+            <point X="-40.0" Y="0.0" Z="-40.0" />
+            <point X="-70.0" Y="0.0" Z="0.0" />
+            <point X="-40.0" Y="0.0" Z="40.0" />
+        </translate>
+        <rotate time="5.6" axisY="1" />
+        <scale X="0.357" Y="0.357" Z="0.357" />
+        <models>
+            <model file="teste/esfera.3d" texture="teste/mercury.jpg"/>
+        </models>
+    </group>
+    <group>
+        <!--VENUS-->
+        <translate time="25" >
+            <point X="60.0" Y="0.0" Z="60.0" />
+            <point X="110.0" Y="0.0" Z="0.0" />
+            <point X="60.0" Y="0.0" Z="-60.0" />
+            <point X="-60.0" Y="0.0" Z="-60.0" />
+            <point X="-110.0" Y="0.0" Z="0.0" />
+            <point X="-60.0" Y="0.0" Z="60.0" />
+        </translate>
+        <rotate time="27" axisY="1" />
+        <scale X="0.643" Y="0.643" Z="0.643" />
+        <models>
+            <model file="teste/esfera.3d" texture="teste/venus.jpg"/>
+        </models>
+    </group>
+    <group>
+        <!--TERRA-->
+        <translate time="40.5" >
+            <point X="90.0" Y="0.0" Z="90.0" />
+            <point X="160.0" Y="0.0" Z="0.0" />
+            <point X="90.0" Y="0.0" Z="-90.0" />
+            <point X="-90.0" Y="0.0" Z="-90.0" />
+            <point X="-160.0" Y="0.0" Z="0.0" />
+            <point X="-90.0" Y="0.0" Z="90.0" />
+        </translate>
+        <group>
+            <rotate time="1" axisY="1" />
+            <scale X="0.714" Y="0.714" Z="0.714" />
+            <models>
+                <model file="teste/esfera.3d" texture="teste/earth.jpg"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA-->
+            <scale X="0.714" Y="0.714" Z="0.714" />
+            <translate time="20" >
+                <point X="21.008" Y="0.0" Z="21.008" />
+                <point X="35.0" Y="0.0" Z="0.0" />
+                <point X="21.008" Y="0.0" Z="-21.008" />
+                <point X="-21.008" Y="0.0" Z="-21.008" />
+                <point X="-35.0" Y="0.0" Z="0.0" />
+                <point X="-21.008" Y="0.0" Z="21.008" />
+            </translate>
+            <group>
+                <rotate time="10" axisY="1" />
+                <scale X="0.214" Y="0.214" Z="0.214" />
+                <models>
+                    <model file="teste/esfera.3d" texture="teste/moon.jpg"/>
+                </models>
+            </group>
+        </group>
+    </group>  
+    <group>
+        <!--MARTE-->
+        <translate time = "76.3">
+            <point X="115" Y="0.0" Z="115" />
+            <point X="200.0" Y="0.0" Z="0.0" />
+            <point X="115" Y="0.0" Z="-115" />
+            <point X="-115" Y="0.0" Z="-115" />
+            <point X="-200.0" Y="0.0" Z="0.0" />
+            <point X="-115" Y="0.0" Z="115" />
+        </translate>
+        <rotate time="1" axisY="1" />
+        <scale X="0.5" Y="0.5" Z="0.5" />
+        <models>
+            <model file="teste/esfera.3d" texture="teste/mars.jpg"/>
+        </models>
+    </group>
+    <group>
+        <!--JÚPITER-->
+        <translate time ="468.6" >
+            <point X="200" Y="0.0" Z="200" />
+            <point X="350.0" Y="0.0" Z="0.0" />
+            <point X="200" Y="0.0" Z="-200" />
+            <point X="-200" Y="0.0" Z="-200" />
+            <point X="-350.0" Y="0.0" Z="0.0" />
+            <point X="-200" Y="0.0" Z="200" />
+        </translate>
+        <rotate time="0.5" axisY="1" />
+        <scale X="2.143" Y="2.143" Z="2.143" />
+        <models>
+            <model file="teste/esfera.3d" texture="teste/jupyter.jpg"/>
+        </models>
+    </group>
+    <group>
+    <!-- SATURNO -->
+        <translate time="1216.6" >
+            <point X="250.0" Y="0.0" Z="250.0" />
+            <point X="450.0" Y="0.0" Z="0.0" />
+            <point X="250.0" Y="0.0" Z="-250.0" />
+            <point X="-250.0" Y="0.0" Z="-250.0" />
+            <point X="-450.0" Y="0.0" Z="0.0" />
+            <point X="-250.0" Y="0.0" Z="250.0" />
+        </translate>
+        <group>
+            <rotate time="100" axisY="1" />
+            <scale X="1.929" Y="1.929" Z="1.929" />
+            <group>
+                <rotate angle="20" axisX="-1" />
+                <models>
+                    <model file="teste/esfera.3d" texture="teste/saturn.jpg"/>
+                </models>
+            </group>
+        </group>
+        <!-- TORUSSATURNO -->
+        <group>
+            <rotate time="100" axisY="1" />
+            <group> 
+                <rotate angle = "70" axisX= "1" axisY="0" axisZ="0"/>
+                <scale Z = "0.01"/>
+                <models>
+                    <model file="teste/torus.3d" texture= "teste/aneis.jpg" />
+                </models>
+            </group>
+        </group>
+    </group>
+    <group>
+        <!--URANO-->
+        <translate time = "6691.6">
+            <point X="325" Y="0.0" Z="325" />
+            <point X="550.0" Y="0.0" Z="0.0" />
+            <point X="325" Y="0.0" Z="-325" />
+            <point X="-325" Y="0.0" Z="-325" />
+            <point X="-550.0" Y="0.0" Z="0.0" />
+            <point X="-325" Y="0.0" Z="325" />
+        </translate>
+        <rotate time="0.8" axisY="1" />
+        <scale X="1" Y="1" Z="1" />
+        <models>
+            <model file="teste/esfera.3d" texture="teste/uranus.jpg"/>
+        </models>
+    </group>
+    <group>
+        <!--NEPTUNO-->
+        <translate time = "6651.1">
+            <point X="400" Y="0.0" Z="400" />
+            <point X="650.0" Y="0.0" Z="0.0" />
+            <point X="400" Y="0.0" Z="-400" />
+            <point X="-400" Y="0.0" Z="-400" />
+            <point X="-650.0" Y="0.0" Z="0.0" />
+            <point X="-400" Y="0.0" Z="400" />
+        </translate>
+        <rotate time="0.9" axisY="1" />
+        <scale X="0.857" Y="0.857" Z="0.857" />
+        <models>
+            <model file="teste/esfera.3d" texture="teste/neptune.jpg"/>
+        </models>
+    </group>
+   <group>
+        <!--PLUTÃO-->
+        <translate time = "10068145">
+            <point X="475" Y="0.0" Z="475" />
+            <point X="750.0" Y="0.0" Z="0.0" />
+            <point X="475" Y="0.0" Z="-475" />
+            <point X="-475" Y="0.0" Z="-475" />
+            <point X="-750.0" Y="0.0" Z="0.0" />
+            <point X="-475" Y="0.0" Z="475" />
+        </translate>
+        <rotate time="2.2" axisY="1" />
+        <scale X="0.2" Y="0.2" Z="0.2" />
+        <models>
+            <model file="teste/esfera.3d" />
+        </models>
+    </group>
+</scene>

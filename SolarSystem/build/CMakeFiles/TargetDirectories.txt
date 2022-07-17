@@ -1,0 +1,4 @@
+C:/Users/david/OneDrive/Ambiente de Trabalho/UM/CG/Fase4/build/CMakeFiles/engine.dir
+C:/Users/david/OneDrive/Ambiente de Trabalho/UM/CG/Fase4/build/CMakeFiles/generator.dir
+C:/Users/david/OneDrive/Ambiente de Trabalho/UM/CG/Fase4/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/david/OneDrive/Ambiente de Trabalho/UM/CG/Fase4/build/CMakeFiles/ZERO_CHECK.dir
